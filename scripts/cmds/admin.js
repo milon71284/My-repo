@@ -9,7 +9,7 @@ module.exports = {
                 countDown: 5,
                 role: 2,
                 description: {
-                        bn: "বোট অ্যাডমিন যোগ, অপসারণ বা তালিকা দেখুন",
+                        bn: "বট অ্যাডমিন যোগ, অপসারণ বা তালিকা দেখুন",
                         en: "Add, remove, or list bot admins",
                         vi: "Thêm, xóa, sửa quyền admin"
                 },
