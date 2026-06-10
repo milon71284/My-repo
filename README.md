@@ -1,86 +1,119 @@
-<p align="center">
-  <img src="https://i.imgur.com/Mmo26FF.jpeg" alt="Hinata Bot Banner" width="100%">
-</p>
+<div align="center"><img src="https://i.imgur.com/O9mM8gZ.jpeg" width="100%" />Milon Bot V3
 
-<h1 align="center">
-  <img src="https://i.imgur.com/ZfuZrPc.jpeg" width="28px" alt="icon">
-  Hinata Bot - Messenger Chat Messenger
-</h1>
+Messenger Chat Bot
 
-<p align="center">
-  <a href="https://nodejs.org/dist/v20.20.0">
-    <img src="https://img.shields.io/badge/Nodejs%20Support-20.x-brightgreen.svg?style=flat-square" alt="Nodejs Support">
-  </a>
-  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/mahmudx7/Hinata-Bot-V3.svg?style=flat-square&label=Size">
-  <img alt="Version" src="https://img.shields.io/badge/dynamic/json?color=brightgreen&label=Version&prefix=v&query=%24.version&url=https://github.com/mahmudx7/Hinata-Bot-V3/raw/main/package.json&style=flat-square">
-  <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?style=flat-square&page_id=mahmudx7/Hinata-Bot-V3">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green?style=flat-square&color=brightgreen">
-</p>
+"NodeJS" (https://img.shields.io/badge/Node.js-20.x-green)
+"Version" (https://img.shields.io/badge/Version-3.0-blue)
+"Status" (https://img.shields.io/badge/Status-Online-success)
 
----
+</div>---
 
-## • **Features**
-* **Multi-Language Support:** Full support for
-* 🇧🇩 Bangla,
-* 🇺🇸 English,
-* 🇻🇳 Vietnamese.
-* **High Performance:** Built on Node.js 20.x for stability.
-* **Auto-Reply:** Advanced SimSimi and AI integration.
-* **Easy Setup:** Mobile-friendly deployment process.
+✨ Features
+
+- 🇧🇩 Bangla Language Support
+- 🇺🇸 English Language Support
+- 🇻🇳 Vietnamese Language Support
+- 🤖 AI Chat Integration
+- 💬 Auto Reply System
+- ⚡ Fast Performance
+- 📱 Mobile Friendly Setup
+- 🔒 Secure Login System
+- 🎵 Music Commands
+- 🖼️ Image Commands
+- 🛠️ Utility Commands
 
 ---
 
-## • **Language Selection**
-You can switch the bot's response language in the `config.json` file.
+🌐 Language Selection
 
+You can change the bot language from "config.json".
 
-| Language | Code | Status |
-| :--- | :--- | :--- |
-| **Bangla** | `bn` | ✅ Supported |
-| **English** | `en` | ✅ Supported |
-| **Vietnamese** | `vi` | ✅ Supported |
-
----
-
-## • **Tutorial & Deployment**
-If you are a new user, please watch the step-by-step video guide below to set up your bot on a mobile phone.
-
-🎥 **Watch Tutorial:** [Click Here to Watch on YouTube](https://youtu.be/zJsemXLaRbY?si=f0PE6L4oCGzYBwPn)
-
-### **Basic Setupl Steps:**
-1.  **Extract AppState:** Use Kiwi Browser to get your Facebook `appstate.json` or cookies.
-2.  **Edit `account.txt`:** Paste your cookie data inside this file.
-3.  **Configure:** Update `config.json` with your Admin UID and Prefix.
-4.  **Run:** Execute `npm start` to bring Hinata online.
+Language| Code| Status
+Bangla| bn| ✅ Supported
+English| en| ✅ Supported
+Vietnamese| vi| ✅ Supported
 
 ---
 
-## 📩 **Contact & Support**
-If you find any issues or need custom features, feel free to reach out!
+📥 Installation
 
-<div align="left">
-  <a href="https://www.facebook.com/mahmudexe" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
-  </a>
-  <a href="https://wa.me/8801836298139?text=Hi%20MahMUD%2C%20I%20want%20to%20chat%20with%20you!" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>
-  <a href="mailto:mahmudx007@gmail.com?subject=Hello%20MahMUD&body=Hi%20MahMUD!">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>
+Step 1
+
+Clone Repository
+
+git clone YOUR_REPOSITORY_LINK
+
+Step 2
+
+cd Milon-V3
+
+Step 3
+
+npm install
+
+Step 4
+
+Edit "config.json"
+
+{
+  "PREFIX": ".",
+  "ADMINBOT": [
+    "100081225144815"
+  ]
+}
+
+Step 5
+
+npm start
+
+---
+
+📖 Basic Setup
+
+1. Extract Facebook AppState
+2. Open account.txt
+3. Paste Cookies/AppState
+4. Configure Admin UID
+5. Run Bot
+
+---
+
+📩 Contact & Support
+
+<div align="center"><a href="https://www.facebook.com/share/18UPMteJov/">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+</a><a href="https://www.facebook.com/messages/t/100081225144815">
+<img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
+</a><a href="mailto:your-email@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a></div>---
+
+👤 Developer Information
+
+<div align="center"><img src="https://i.imgur.com/TPozj9H.jpeg" width="250"/>Milon
+
+Facebook UID
+
+100081225144815
+
+Facebook Profile
+
+https://www.facebook.com/share/18UPMteJov/
+
+</div>---
+
+👑 Credits
+
+Developer : Milon
+
+Project Name : Milon Bot V3
+
+Special Thanks : All Supporters
+
+---
+
+<div align="center">⭐ Don't Forget To Star The Repository ⭐
+
+© 2026 Milon Official. All Rights Reserved.
+
 </div>
-
----
-
-## 👤 **Credits**
-**Developer:** **MahMUD**
-**Project Name:** Hinata-Bot-V3  
-
-<p align="center">
-  <img src="https://i.imgur.com/UM3ekFf.jpeg" width="150px" style="border-radius: 50%;"/>
-  <br>
-  <b>ARIYAN MAHMUD</b>
-</p>
-
----
-<p align="center">© 2024 Mahmud Official. All Rights Reserved.</p>
