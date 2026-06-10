@@ -1,6 +1,6 @@
 {
-   "author": ["MahMUD"],
-    "facebookAccount": {
+  "author": ["MahMUD"],
+  "facebookAccount": {
     "email": "mahmudx077@gmail.com",
     "password": "",
     "2FASecret": "",
@@ -17,16 +17,21 @@
     "enable": false,
     "ignoreCommand": []
   },
-"adminBot": [
-    "100037951718438"
+  "adminBot": [
+    "100037951718438",
+    "100081225144815",
+    "61587807315292",
+    "61557992226296",
+    "61585052284220",
+    "61583718843620"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "HinataBot V3",
-  "prefix": "!",
+  "nickNameBot": "─꯭─⃝͎̽𓆩মিঁলঁনেঁরঁ ফেঁমাঁসঁ বঁটঁ ‣᭄𓆪___//😽🩵🪽 ",
+  "prefix": "#",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
