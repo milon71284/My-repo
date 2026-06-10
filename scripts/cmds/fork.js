@@ -24,8 +24,7 @@ module.exports = {
                         return api.sendMessage("You are not authorized to change the author name.", event.threadID, event.messageID);
                 }
 
-                const githubLink = "https://github.com/mahmudx7/hinata-Bot-V3";
-                const youtubeLink = "https://youtu.be/zJsemXLaRbY?si=8O-O-nSXgQlsNvnU";
+                const githubLink = "https://github.com/Milon7-cell/Milon-V3.git";
 
                 const response = `✨ | Fork this project here:\n\n` +
                                  `${githubLink}\n\n` +
