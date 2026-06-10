@@ -1,119 +1,75 @@
-<div align="center"><img src="https://i.imgur.com/O9mM8gZ.jpeg" width="100%" />Milon Bot V3
+Milon Bot Banner
 
-Messenger Chat Bot
+icon Milon Bot - Messenger Chat Messenger
 
-"NodeJS" (https://img.shields.io/badge/Node.js-20.x-green)
-"Version" (https://img.shields.io/badge/Version-3.0-blue)
-"Status" (https://img.shields.io/badge/Status-Online-success)
+Nodejs Support Repo Size Version Visitors License
 
-</div>---
+• Features
 
-✨ Features
+Multi-Language Support: Full support for
 
-- 🇧🇩 Bangla Language Support
-- 🇺🇸 English Language Support
-- 🇻🇳 Vietnamese Language Support
-- 🤖 AI Chat Integration
-- 💬 Auto Reply System
-- ⚡ Fast Performance
-- 📱 Mobile Friendly Setup
-- 🔒 Secure Login System
-- 🎵 Music Commands
-- 🖼️ Image Commands
-- 🛠️ Utility Commands
+🇧🇩 Bangla,
 
----
+🇺🇸 English,
 
-🌐 Language Selection
+🇻🇳 Vietnamese.
 
-You can change the bot language from "config.json".
+High Performance: Built on Node.js 20.x for stability.
+
+Auto-Reply: Advanced SimSimi and AI integration.
+
+Easy Setup: Mobile-friendly deployment process.
+
+• Language Selection
+
+You can switch the bot's response language in the config.json file.
 
 Language| Code| Status
 Bangla| bn| ✅ Supported
 English| en| ✅ Supported
 Vietnamese| vi| ✅ Supported
 
----
+• Tutorial & Deployment
 
-📥 Installation
+If you are a new user, please watch the step-by-step video guide below to set up your bot on a mobile phone.
 
-Step 1
+🎥 Watch Tutorial: Click Here to Watch on YouTube
 
-Clone Repository
+Basic Setup Steps:
 
-git clone YOUR_REPOSITORY_LINK
+Extract AppState: Use Kiwi Browser to get your Facebook appstate.json or cookies.
 
-Step 2
+Edit account.txt: Paste your cookie data inside this file.
 
-cd Milon-V3
+Configure: Update config.json with your Admin UID and Prefix.
 
-Step 3
-
-npm install
-
-Step 4
-
-Edit "config.json"
-
-{
-  "PREFIX": ".",
-  "ADMINBOT": [
-    "100081225144815"
-  ]
-}
-
-Step 5
-
-npm start
-
----
-
-📖 Basic Setup
-
-1. Extract Facebook AppState
-2. Open account.txt
-3. Paste Cookies/AppState
-4. Configure Admin UID
-5. Run Bot
-
----
+Run: Execute "npm start" to bring Milon Bot online.
 
 📩 Contact & Support
 
-<div align="center"><a href="https://www.facebook.com/share/18UPMteJov/">
-<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
-</a><a href="https://www.facebook.com/messages/t/100081225144815">
-<img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
-</a><a href="mailto:your-email@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a></div>---
+If you find any issues or need custom features, feel free to reach out!
 
-👤 Developer Information
-
-<div align="center"><img src="https://i.imgur.com/TPozj9H.jpeg" width="250"/>Milon
-
-Facebook UID
-
-100081225144815
-
-Facebook Profile
+Facebook
 
 https://www.facebook.com/share/18UPMteJov/
 
-</div>---
+Messenger
 
-👑 Credits
+https://m.me/100081225144815
 
-Developer : Milon
+👤 Credits
 
-Project Name : Milon Bot V3
+Developer: Milon
 
-Special Thanks : All Supporters
+Project Name: Milon-Bot-V3
 
 ---
 
-<div align="center">⭐ Don't Forget To Star The Repository ⭐
+MILON
+
+Facebook UID: 100081225144815
+
+Facebook:
+https://www.facebook.com/share/18UPMteJov/
 
 © 2026 Milon Official. All Rights Reserved.
-
-</div>
