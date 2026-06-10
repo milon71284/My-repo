@@ -1,75 +1,68 @@
-Milon Bot Banner
+<p align="center">
+  <img src="https://i.imgur.com/O9mM8gZ.jpeg" alt="Milon Bot Banner" width="100%">
+</p>
 
-icon Milon Bot - Messenger Chat Messenger
+<h1 align="center">
+  <img src="https://i.imgur.com/4IkBrWK.jpeg" width="28px" alt="icon">
+  Milon Bot - Messenger Automation Bot
+</h1>
 
-Nodejs Support Repo Size Version Visitors License
-
-• Features
-
-Multi-Language Support: Full support for
-
-🇧🇩 Bangla,
-
-🇺🇸 English,
-
-🇻🇳 Vietnamese.
-
-High Performance: Built on Node.js 20.x for stability.
-
-Auto-Reply: Advanced SimSimi and AI integration.
-
-Easy Setup: Mobile-friendly deployment process.
-
-• Language Selection
-
-You can switch the bot's response language in the config.json file.
-
-Language| Code| Status
-Bangla| bn| ✅ Supported
-English| en| ✅ Supported
-Vietnamese| vi| ✅ Supported
-
-• Tutorial & Deployment
-
-If you are a new user, please watch the step-by-step video guide below to set up your bot on a mobile phone.
-
-🎥 Watch Tutorial: Click Here to Watch on YouTube
-
-Basic Setup Steps:
-
-Extract AppState: Use Kiwi Browser to get your Facebook appstate.json or cookies.
-
-Edit account.txt: Paste your cookie data inside this file.
-
-Configure: Update config.json with your Admin UID and Prefix.
-
-Run: Execute "npm start" to bring Milon Bot online.
-
-📩 Contact & Support
-
-If you find any issues or need custom features, feel free to reach out!
-
-Facebook
-
-https://www.facebook.com/share/18UPMteJov/
-
-Messenger
-
-https://m.me/100081225144815
-
-👤 Credits
-
-Developer: Milon
-
-Project Name: Milon-Bot-V3
+<p align="center">
+  <a href="https://nodejs.org/dist/v20.20.0">
+    <img src="https://img.shields.io/badge/Node.js-20.x-brightgreen?style=for-the-badge">
+  </a>
+  <img src="https://img.shields.io/github/repo-size/milon220/Ghost?style=for-the-badge&label=Repo%20Size">
+  <img src="https://img.shields.io/github/stars/milon220/Ghost?style=for-the-badge&label=Stars">
+</p>
 
 ---
 
-MILON
+## 🤖 About This Bot
+Milon Bot একটি powerful Messenger automation bot, যেটা বিভিন্ন smart command, AI system, song search এবং fun feature support করে।
 
-Facebook UID: 100081225144815
+---
 
-Facebook:
-https://www.facebook.com/share/18UPMteJov/
+## ⚙️ Features
+- 🤖 AI Chat System  
+- 🎵 Song Search & Play  
+- 📊 Auto Info & Activity  
+- ⚡ Fast Response  
+- 🛠️ Easy Custom Command  
 
-© 2026 Milon Official. All Rights Reserved.
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/milon220/Ghost.git
+cd Ghost
+npm install
+npm start
+```
+
+---
+
+## 📌 Command Example
+
+```
+!help
+!ai hello
+!song faded
+```
+
+---
+
+## 👑 Owner & Contact
+- 👤 Name: Milon Vai  
+- 🌐 GitHub: https://github.com/milon220  
+- 📘 Facebook: https://www.facebook.com/share/1B3xaiqV8z/
+
+---
+
+## ⚠️ Disclaimer
+This project is made for educational purposes only. Use it responsibly.
+
+---
+
+## ⭐ Support
+ভালো লাগলে repo-তে ⭐ দিয়ে support করো ❤️
