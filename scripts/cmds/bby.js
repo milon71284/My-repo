@@ -10,9 +10,9 @@ const mahmud = [
     "জান",
     "জানু",
     "বেবি",
-    "wifey",
-    "hina",
-    "hinata",
+    "easha",
+    "jui",
+    "nusrat",
 ];
 
 const baseApiUrl = async () => {
@@ -180,7 +180,7 @@ module.exports.onChat = async ({ api, event }) => {
                                 "babu khuda lagse🥺",
                                 "Hop beda😾,Boss বল boss😼",
                                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",                      
-                                "naw amr boss k message daw 01836298139",
+                                "naw amr milon boss k akn message daw m.me/100081225144815",
                                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝐮__😘😘",
