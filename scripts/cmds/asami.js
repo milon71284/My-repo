@@ -50,9 +50,8 @@ module.exports = {
       const userInfo = await api.getUserInfo(targetID);
       const userName = userInfo[targetID]?.name || "Criminal";
 
-      // 🖼️ এখানে একটি Wanted Poster এর ডেমো লিংক দেওয়া হয়েছে
-      // আপনি চাইলে Imgur এ অন্য ছবি আপলোড করে সেই লিংক এখানে বসাতে পারবেন
-      const imgLink = "https://i.imgur.com/1Gv25a0.jpg"; 
+      // 🖼️ আপনার দেওয়া নতুন লিংক
+      const imgLink = "https://i.imgur.com/eD4nkVu.jpeg"; 
       const filePath = path.join(cacheDir, `wanted_${Date.now()}.png`);
 
       message.reply("থানায় খবর দেওয়া হইছে, আসামির পোস্টার ছাপানো হইতেছে... ⏳🚨");
@@ -68,15 +67,20 @@ module.exports = {
       const canvas = createCanvas(baseImage.width, baseImage.height);
       const ctx = canvas.getContext("2d");
 
-      // প্রথমে ব্যাকগ্রাউন্ড (Wanted Poster) আঁকা
+      // ব্যাকগ্রাউন্ড আঁকা
       ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
 
-      // 📏 প্রোফাইল পিকচারের সাইজ এবং পজিশন
-      const pfpSize = 180;
-      const x = 160; // ডানে-বামে সরানোর জন্য (X axis)
-      const y = 220; // উপরে-নিচে সরানোর জন্য (Y axis)
+      // 📏 প্রোফাইল পিকচারের নতুন সাইজ এবং পজিশন
+      const pfpSize = 420; // ছবির ফ্রেম অনুযায়ী সাইজ বড় করা হয়েছে
+      
+      // X-axis: ছবিটাকে অটোমেটিক মাঝখানে বসানোর জন্য
+      const x = (canvas.width - pfpSize) / 2; 
+      
+      // Y-axis: ওপর থেকে কতটা নিচে নামবে
+      const y = 300; 
 
       ctx.save();
+      
       // প্রোফাইল পিকচারটি গোল করার জন্য
       ctx.beginPath();
       ctx.arc(x + pfpSize / 2, y + pfpSize / 2, pfpSize / 2, 0, Math.PI * 2);
@@ -86,11 +90,11 @@ module.exports = {
       ctx.drawImage(targetPfp, x, y, pfpSize, pfpSize);
       ctx.restore();
 
-      // ছবির চারপাশে একটি লাল বর্ডার দেওয়া
+      // ছবির চারপাশে একটি ভিনটেজ স্টাইলের গাঢ় খয়েরি বর্ডার দেওয়া
       ctx.beginPath();
       ctx.arc(x + pfpSize / 2, y + pfpSize / 2, pfpSize / 2, 0, Math.PI * 2);
-      ctx.lineWidth = 4;
-      ctx.strokeStyle = "#ff0000"; // লাল রং
+      ctx.lineWidth = 6;
+      ctx.strokeStyle = "#3e2723"; // গাঢ় খয়েরি রং
       ctx.stroke();
 
       const buffer = canvas.toBuffer("image/png");
