@@ -19,13 +19,18 @@
   },
 "adminBot": [
     "100081225144815"
+   "61555933929401"
+   "61557992226296"
+   "61585052284220"
+   "61583718843620"
+   "61587807315292"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Milon Bot V3",
+  "nickNameBot": "─꯭─⃝͎̽𓆩মিঁলঁনেঁরঁ ফেঁমাঁসঁ বঁটঁ‣᭄𓆪___//😽🩵🪽",
   "prefix": "#",
   "database": {
     "type": "sqlite",
