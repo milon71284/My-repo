@@ -14,7 +14,7 @@ module.exports = {
   config: {
     name: "pocketmar",
     version: "1.0.0",
-    author: "𝕸𝖎𝖑𝖔𝖓", // 🔒 LOCKED: চেঞ্জ করলে কাজ করবে না
+    author: "𝕸𝖎𝖑𝖔𝖓", 
     countDown: 5,
     role: 0, 
     category: "fun",
@@ -24,7 +24,7 @@ module.exports = {
   },
 
 /* --- [ 🔐 FILE_CREATOR_INFORMATION ] ---
- * 🤖 BOT NAME: MILON BOT
+ * 🤖 BOT NAME: ─꯭─⃝͎̽𓆩মিঁলঁনেঁরঁ ফেঁমাঁসঁ বঁটঁ‣᭄𓆪___//😽🩵🪽
  * 👤 OWNER: 𝕸𝖎𝖑𝖔𝖓
  * 🛠️ PROJECT: MILON BOT PROJECT (2026)
  * --------------------------------------- */
@@ -67,8 +67,8 @@ module.exports = {
       const userInfo = await api.getUserInfo(targetID);
       const userName = userInfo[targetID]?.name || "User";
 
-      // 🖼️ আপনার আপলোড করা Imgur লিংক
-      const imgLink = "https://i.imgur.com/hObOmKk.jpeg"; 
+      // 🖼️ আপনার দেওয়া ফাইনাল ইমেজ লিংক
+      const imgLink = "https://i.imgur.com/1J4w5Gn.jpeg"; 
       const filePath = path.join(cacheDir, `pocketmar_milon_${Date.now()}.png`);
 
       message.reply(`দাঁড়া মামা, পকেটমার ধরা খাইছে! জনতার মাইর রেডি করতেছি... ⏳👊`);
@@ -86,22 +86,43 @@ module.exports = {
 
       ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
 
-      // 📏 পজিশন 
-      const pfpWidth = 120; 
-      const pfpHeight = 120; 
-      const x = 425; 
-      const y = 145; 
+      // 📐 নতুন ক্যালকুলেশন (Midpoint)
+      const pfpWidth = 130; 
+      const pfpHeight = 130; 
+      
+      const x = 385; // ডানে-বামে একদম ঠিক আছে, তাই এটা চেঞ্জ করলাম না
+      const y = 115; // আগে ১৩০ ছিল, সামান্য একটু ওপরে তোলার জন্য ১১৫ করে দিলাম
 
       ctx.save();
       
-      // মুখটা গোল করে কাটার জন্য
+      // ছবি গোল করে কাটার জন্য
       ctx.beginPath();
-      ctx.arc(x + pfpWidth / 2, y + pfpHeight / 2, pfpWidth / 2, 0, Math.PI * 2);
+      ctx.arc(
+        x + pfpWidth / 2,
+        y + pfpHeight / 2,
+        pfpWidth / 2,
+        0,
+        Math.PI * 2
+      );
       ctx.closePath();
       ctx.clip();
-      
-      ctx.drawImage(targetPfp, x, y, pfpWidth, pfpHeight); 
+
+      ctx.drawImage(targetPfp, x, y, pfpWidth, pfpHeight);
+
       ctx.restore();
+
+      // ন্যাচারাল লুকের জন্য কালো বর্ডার
+      ctx.beginPath();
+      ctx.arc(
+        x + pfpWidth / 2,
+        y + pfpHeight / 2,
+        pfpWidth / 2,
+        0,
+        Math.PI * 2
+      );
+      ctx.lineWidth = 5; 
+      ctx.strokeStyle = "#000";
+      ctx.stroke();
 
       const buffer = canvas.toBuffer("image/png");
       fs.writeFileSync(filePath, buffer);
@@ -111,9 +132,7 @@ module.exports = {
 
 নাম: ${userName} 🤣
 জনতা ধইরা আচ্ছা মতো সাইজ করছে! 
-সবাই নিজেদের মানিব্যাগ চেক করেন মামা! 👛👊
-
-[ 📝 Coded By: ${ORIGINAL_AUTHOR} ]`;
+সবাই নিজেদের মানিব্যাগ চেক করেন মামা! 👛👊`;
 
       return api.sendMessage({
         body: finalCaption,
