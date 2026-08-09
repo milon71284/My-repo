@@ -9,7 +9,7 @@ const mahmud = async () => {
 
 module.exports = {
         config: {
-                name: "fakechat",
+                name: "fchat",
                 aliases: ["fc", "fake", "ফেকচ্যাট"],
                 version: "1.7",
                 author: "MahMUD",
@@ -36,13 +36,13 @@ module.exports = {
                         noTarget: "× বেবি, কাউকে মেনশন দাও, রিপ্লাই করো অথবা UID দাও! 🗨️",
                         noText: "× বেবি, চ্যাটে কি লিখবে সেই টেক্সট তো দাও! ✍️",
                         success: "🗨️ এই দেখো মুরগী চোর কি মেসেজ দিয়েছে: %1",
-                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact MahMUD।"
+                        error: "× সমস্যা হয়েছে: %1। প্রয়োজনে Contact Milon।"
                 },
                 en: {
                         noTarget: "× Baby, please reply, mention, or provide user UID! 🗨️",
                         noText: "× Baby, please provide the text for the fake chat! ✍️",
                         success: "🗨️ এই দেখো মুরগী চোর কি মেসেজ দিয়েছে: %1",
-                        error: "× API error: %1. Contact MahMUD for help."
+                        error: "× API error: %1. Contact Milon for help."
                 },
                 vi: {
                         noTarget: "× Cưng ơi, vui lòng phản hồi, gắn thẻ hoặc cung cấp UID! 🗨️",
