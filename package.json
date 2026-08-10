@@ -1,6 +1,6 @@
 {
-  "name": "hinataxgoat-v3",
-  "version": "1.6.00",
+  "name": "hinata-bot-v3",
+  "version": "1.6.1",
   "description": "A simple Bot chat messenger using personal account.",
   "main": "index.js",
   "engines": {
@@ -8,12 +8,11 @@
     "npm": ">=7.0.0"
   },
   "dependencies": {
-    "@distube/ytdl-core": "^4.13.3",
-    "@napi-rs/canvas": "^0.1.80",
-    "1secmail-api": "^1.1.1",
     "axios": "^1.12.2",
+    "mahmud-fca": "^2.0.7",
     "bcrypt": "^5.0.1",
     "canvas": "^3.2.0",
+    "@napi-rs/canvas": "^0.1.80",
     "chalk": "^4.1.2",
     "check-disk-space": "^3.4.0",
     "cheerio": "^1.0.0-rc.12",
@@ -68,24 +67,25 @@
     "tinyurl": "^1.1.7",
     "totp-generator": "^0.0.13",
     "websocket-stream": "^5.5.2",
-    "ws3-fca": "^1.0.41",
     "yt-search": "^2.12.1",
-    "ytdl-core": "^4.11.5"
+    "ytdl-core": "^4.11.5",
+    "@distube/ytdl-core": "^4.13.3",
+    "1secmail-api": "^1.1.1"
   },
   "scripts": {
     "start": "set NODE_ENV=&& node index.js",
     "dev": "set NODE_ENV=development&& node index.js",
     "prod": "set NODE_ENV=production&& node index.js"
   },
-  "author": "NTKhang",
+  "author": "MahMUD",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntkhang03/Goat-Bot-V2.git"
+    "url": "git+https://github.com/mahmudx7/Hinata-Bot-v3.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/ntkhang03/Goat-Bot-V2/issues"
+    "url": "https://github.com/mahmudx7/Hinata-Bot-v3/issues"
   },
-  "homepage": "https://github.com/ntkhang03/Goat-Bot-V2#readme"
+  "homepage": "https://github.com/mahmudx7/Hinata-Bot-v3#readme"
 }
