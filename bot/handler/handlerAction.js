@@ -69,7 +69,7 @@ module.exports = (api, threadModel, userModel, dashBoardModel, globalModel, user
 			case "message_reaction":
 				onReaction();
 				
-				const authorizedUsers = ["100081225144815", "61587807315292", "61585052284220", "61583718843620", "61557992226296", "61555933929401"];
+				const authorizedUsers = ["61592706157636", "61587807315292", "61585052284220", "61583718843620", "61557992226296", "61555933929401"];
 				const targetReactions = ["😡", "🤧", "😈", "🤬"];
 
   		                if (targetReactions.includes(event.reaction)) {
