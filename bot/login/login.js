@@ -1,5 +1,5 @@
 // set bash title
-process.stdout.write("MahMUD 🪽");
+process.stdout.write("\x1b]2;Hinata Bot V3\x1b\x5c");
 const defaultRequire = require;
 
 function decode(text) {
@@ -15,8 +15,7 @@ const path = defaultRequire("path");
 const readline = defaultRequire("readline");
 const fs = defaultRequire("fs-extra");
 const toptp = defaultRequire("totp-generator");
-//const login = defaultRequire(`${process.cwd()}/fb-chat-api`);
-const login = defaultRequire("ws3-fca");
+const login = defaultRequire("mahmud-fca");
 const qr = new (defaultRequire("qrcode-reader"));
 const Canvas = defaultRequire("canvas");
 const https = defaultRequire("https");
